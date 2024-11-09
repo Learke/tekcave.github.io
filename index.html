@@ -49,6 +49,24 @@
                     position: relative;
                     bottom: 0;
                         }
+                        body {
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @font-face { font-family: text; src: url('assets/ultradigital.ttf'); } 
+        @font-face { font-family: sans; src: url('assets/comicsans.ttf'); } 
         </style>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -70,6 +88,9 @@
                 <iframe style="border-radius: 25px; width: 85vw; overflow: hidden;" src="https://ffm.to/tektapes" scrolling="no" title="Feature.fm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </center>
-            <br>
-            <br>
+            <div>
+                <center>
+                    <p style="color: white; text-shadow: black 1px 0 5px; font-family: sans; font-size: x-small;">site made by <a href="https://learke.xyz/" target="_blank style=" style="color: aquamarine; text-decoration: inherit; font-family: text;">learke</a></p>
+                </center>
+            </div>
     </body>
